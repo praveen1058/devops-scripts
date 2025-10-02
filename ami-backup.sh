@@ -4,7 +4,7 @@
 
 INSTANCE_ID=$1
 DATE=$(date +%Y-%m-%d)
-REGION="ap-south-1"
+REGION="us-east-1"
 
 if [ -z "$INSTANCE_ID" ]; then
   echo "Usage: $0 <instance-id>"
